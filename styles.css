@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(57, 57, 64);
+    color: black;
+    background-image: url("background_img_p1.png");
+}
+
+.container-1 {
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(119, 119, 124);
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    grid-gap: 3px
+}
+
+.logo {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact {
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: black;
+}
+
+.form-class{
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    color: black;
+}
+
+.logo {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+#container-2{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 100px;
+
+}
+
+.about-me{
+    /* background-color: white; */
+    height: 250px;
+    /* border: 10px solid rgb(119, 119, 124); */
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 70px black;
+} 
+
+.work-class {
+    margin: 20px;
+    padding: 10px;
+    position:relative; top:50px;
+    /* border: 10px solid rgb(119, 119, 124); */
+}
+
+.container-3 {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: white; */
+    color: white;
+    grid-gap: 10px;
+    position:relative; top:35px;
+    /* border: 5px solid rgb(119, 119, 124); */
+}
+
+.container-4 {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: white; */
+    color: white;
+    grid-gap: 10px;
+    position:relative; top:15px;
+    /* border: 5px solid rgb(119, 119, 124); */
+}
+
+.work-class {
+    /* background-color:white; */
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.label:hover {
+    color: red;
+    background-color: white;
+  }
